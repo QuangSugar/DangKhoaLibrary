@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addBook } from "../../store/action/cart";
+import { getCart } from "../../store/slice/cart";
 
 const BookLatest = () => {
   const dispatch = useDispatch();

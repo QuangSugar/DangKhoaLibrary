@@ -409,7 +409,7 @@ const Header = () => {
                     {/* Shop */}
 
                     <li className="menu-item">
-                      <Link to="/shop">Shop</Link>
+                      <Link to="/contact">Contact</Link>
                     </li>
                     <li className="menu-item">
                       <Link to="/contact">Contact</Link>

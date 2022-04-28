@@ -3,7 +3,6 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Auth from "../pages/auth/Auth";
 import BookDetail from "../pages/client/BookDetail";
-import Books from "../pages/client/Books";
 import Cart from "../pages/client/Cart";
 import Home from "../pages/client/Home";
 import MyAccount from '../pages/client/MyAccount'
@@ -17,7 +16,7 @@ const Routes = () => {
       <Route path="/my-account" exact component={MyAccount} />
       <Route path="/book-detail/:id" exact component={BookDetail} />
       <Route path="/cart" exact component={Cart} />
-      <Route path="/shop" exact component={Books} />
+      <Route path="/shop" exact component={} />
      
     </Switch>
   );

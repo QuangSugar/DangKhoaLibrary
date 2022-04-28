@@ -409,9 +409,6 @@ const Header = () => {
                     {/* Shop */}
 
                     <li className="menu-item">
-                      <Link to="/shop">Shop</Link>
-                    </li>
-                    <li className="menu-item">
                       <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
